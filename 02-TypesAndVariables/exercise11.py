@@ -1,0 +1,7 @@
+F_income = input("Father's income: ")
+M_income = input("Mother's income: ")
+P_count = input("number of family members: ")
+ipp=(int(Fincome)+int(Mincome))/int(Pcount)
+ti=int(Fincome)+int(Mincome)
+print(f"Total income: {ti}")
+print(f"income per person: {ipp}")
