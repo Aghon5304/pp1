@@ -1,0 +1,2 @@
+imie="Oliwier"
+print(f"Oliwier:\n {imie[0]} ({ord(imie[0])}) {imie[1]} ({ord(imie[1])}) {imie[2]} ({ord(imie[2])}) {imie[3]} ({ord(imie[3])}) {imie[4]} ({ord(imie[4])}) {imie[5]} ({ord(imie[5])}) {imie[6]} ({ord(imie[6])})")
