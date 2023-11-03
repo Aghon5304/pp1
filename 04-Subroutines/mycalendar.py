@@ -1,5 +1,5 @@
 def month():
-    n=input("Enter month number:")
+    n=int(input("Enter month number:"))
     if(n==1):
         return "Styczen"
     elif(n==2):
