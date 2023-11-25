@@ -1,0 +1,8 @@
+mieso = open("MeatAndFish.txt", "r")
+chleb = open("GrainsAndBread.txt", "r")
+lista = open("shoppinglist.txt", "w")
+zawartoscListy=mieso.read()+"\n"+chleb.read()
+lista.write(zawartoscListy)
+mieso.close()
+chleb.close()
+lista.close()

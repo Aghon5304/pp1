@@ -3,7 +3,7 @@ def f(password):
     wynik=True
     if len(password)>=6:
         for x in password:
-            count=0;
+            count=0
             for y in password:
                 if x==y:
                     count+=1
